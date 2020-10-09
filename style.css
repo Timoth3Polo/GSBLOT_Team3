@@ -1,0 +1,346 @@
+body
+{
+	background-color: rgb(194,245,255);
+}
+
+.authentification_case
+{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top:10%;
+    margin-left:25%;
+
+    height:25vw;
+    width:50vw;
+    border-radius:3vw;
+	background-color: rgba(19,75,87,0.5);
+}
+
+/*--------------------------------------------*/
+/*                                            */
+/*                                            */
+/*              Modif. bouton/etc             */
+/*                                            */
+/*                                            */
+/*--------------------------------------------*/
+
+.zone_saisie
+{
+	height: 2vw;
+	width: 10vw;
+
+	border-radius: 0.5vw;
+
+	margin-bottom:2vw;
+}
+
+.bt_valider
+{
+	height: 3vw;
+	width: 6vw;
+
+	border-radius: 1vw;
+}
+
+a
+{
+	text-decoration: none;
+	font-size:1vw;
+	color:black;
+}
+
+.ok, .erreur
+{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 2vw;
+}
+
+.okbis, .erreurbis
+{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    font-size: 2vw;
+}
+
+/*-------------------------------------------*/
+/*                                           */
+/*                                           */
+/*                    MENU                   */
+/*                                           */
+/*                                           */
+/*-------------------------------------------*/
+
+.menu
+{
+	position:fixed;
+	height: 100%;
+	width: 20%;
+	display:flex;
+	flex-direction:column;
+	top:0;
+	left:0;
+	font-size:1vw;
+
+	background-color: rgba(128, 179, 255,0.5);
+}
+
+.menu1
+{
+	height:15%;
+	width:100%;
+	background-color: rgba(102, 163, 255, 0.5);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 0.15vw rgb(0, 41, 102);
+}
+
+.menu2
+{
+	height:15%;
+	width:100%;
+	background-color: rgba(102, 163, 255, 0.5);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 0.15vw rgb(0, 41, 102);
+}
+
+.menu3
+{
+	height:15%;
+	width:100%;
+	background-color: rgba(102, 163, 255, 0.5);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 0.15vw rgb(0, 41, 102);
+}
+
+.menu4
+{
+	height:15%;
+	width:100%;
+	background-color: rgba(102, 163, 255, 0.5);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 0.15vw rgb(0, 41, 102);
+}
+
+.fin
+{
+	height:15%;
+	width:100%;
+	background-color: rgba(102, 163, 255, 0.5);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-------------------------------------------*/
+/*                                           */
+/*                                           */
+/*                Direction                  */
+/*                                           */
+/*                                           */
+/*-------------------------------------------*/
+
+.direction
+{
+    display:flex;
+    flex-direction:column;
+
+    margin-top:5%;
+    margin-left:30vw;
+    border-radius: 2vw;
+    height:100%;
+    width:50vw;
+    padding-bottom:2vw;
+
+    background-color: rgba(19,75,87,0.5);
+}
+
+.dir_titre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2%;
+    font-size:2.5vw;
+}
+
+ 
+
+.dir_contenue
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 5%;
+    font-size:1vw;
+}
+
+/*-------------------------------------------*/
+/*                                           */
+/*                                           */
+/*               Production                  */
+/*                                           */
+/*                                           */
+/*-------------------------------------------*/
+
+.production
+{
+    display:flex;
+    flex-direction:column;
+
+    margin-top:5%;
+    margin-left:30vw;
+    border-radius: 2vw;
+    height:100%;
+    width:50vw;
+    padding-bottom:2vw;
+
+    background-color: rgba(19,75,87,0.5);
+}
+
+ 
+
+.prd_titre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2%;
+    font-size:2.5vw;
+}
+
+.prd_contenu
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 5%;
+    font-size:1vw;
+}
+
+/*-------------------------------------------*/
+/*                                           */
+/*                                           */
+/*             Médicale Visiteur             */
+/*                                           */
+/*                                           */
+/*-------------------------------------------*/
+
+.vstAjouter_case
+{
+	display:flex;
+	flex-direction:column;
+
+    margin-top:5%;
+    margin-left:30vw;
+    border-radius: 2vw;
+    height:100%;
+    width:50vw;
+    padding-bottom:2vw;
+
+	background-color: rgba(19,75,87,0.5);
+}
+
+.vst_titre
+{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2%;
+    font-size:2.5vw;
+}
+
+.vst_contenue
+{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 5%;
+    font-size:1vw;
+}
+
+
+/*-------------------------------------------*/
+/*                                           */
+/*                                           */
+/*               MAGASIN                     */
+/*                                           */
+/*                                           */
+/*-------------------------------------------*/
+
+.magasin
+{
+     display:flex;
+    flex-direction:column;
+    margin-top:5%;
+    margin-left:30vw;
+    height:100%;
+    width:50vw;
+    border-radius:3vw;
+    background-color: rgba(19,75,87,0.5);
+}
+
+.mag_titre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 2vw;
+}
+
+.mag_contenue
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    font-size: 1vw;
+    margin-bottom:1vw;
+}
+
+/*-------------------------------------------*/
+/*                                           */
+/*                                           */
+/*               STYLE TABLEAU               */
+/*                                           */
+/*                                           */
+/*-------------------------------------------*/
+
+.table
+{
+	display:flex;
+	flex-wrap: nowrap;
+	width:90%;
+	border-collapse: collapse;
+	font-size:1.2vw;
+}
+
+th,td
+{
+    width:25vw;
+    border: solid black 0.1vw;
+    text-align: center;
+}
